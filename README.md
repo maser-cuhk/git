@@ -35,6 +35,7 @@ git reflog
 #Git GUI interface 
 gitk
 
+#Show various types of objects
 git show
 
 #
