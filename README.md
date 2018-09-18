@@ -28,8 +28,10 @@ git push origin master:staging
 git diff "filename"
 git diff
 
-#Git Log
+#Git Log with user info and full commit id 
 git log
+
+#Git lof for short id but without user info
 git reflog
 
 #Git GUI interface 
