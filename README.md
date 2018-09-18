@@ -18,12 +18,15 @@ git commit -m "commit message"<br/>
 git push origin master<br/>
 
 # Git Push - upload changes to remote
-git push origin 
-#will push changes from all local branches to matching branches the origin remote.
-git push origin master 
-#will push changes from the local master branch to the remote master branch.
-git push origin master:staging 
-#will push changes from the local master branch to the remote staging branch if it exists.
+git push origin<br/> 
+will push changes from all local branches to matching branches the origin remote.<br/>
+<br/>
+git push origin master<br/> 
+will push changes from the local master branch to the remote master branch.<br/>
+<br/>
+git push origin master:staging<br/> 
+will push changes from the local master branch to the remote staging branch if it exists.<br/>
+
 
 # Show difference
 git diff "filename"<br/>
