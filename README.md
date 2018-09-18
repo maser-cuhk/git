@@ -1,21 +1,21 @@
 # Project git README.md
 
 # Add User credential
-git config --global user.name "Your Name"__
-git config --global user.email "you@example.com"
+git config --global user.name "Your Name"<br/>
+git config --global user.email "you@example.com"<br/>
 
 # Download files
-git clone "repos.git"__
+git clone "repos.git"<br/>
 
 # Check Status
-git status
-__modified (red) - untracked file but with modification
-__modified (green) - tracked file with modification
+git status<br/>
+modified (red) - untracked file but with modification<br/>
+modified (green) - tracked file with modification<br/>
 
 # Basic Flow
-git add "filename"__
-git commit -m "commit message"__
-git push origin master__
+git add "filename"<br/>
+git commit -m "commit message"<br/>
+git push origin master<br/>
 
 # Git Push - upload changes to remote
 git push origin 
@@ -26,7 +26,7 @@ git push origin master:staging
 #will push changes from the local master branch to the remote staging branch if it exists.
 
 # Show difference
-git diff "filename"__
+git diff "filename"<br/>
 git diff
 
 # Git Log with user info and full commit id 
